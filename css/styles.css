@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ////////// */
+/* ETIQUETAS */
+/* //////// */
+
+div[class*="col"] {
+    border: 1px solid black;
+}
+
+
+/* /////// */
+/* CLASES */
+/* ///// */
+
+.logo-bg {
+    background-color: #ff8bff;
+}
+
+.high-text {
+    font-size: 55px;
+}
+
+body {
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#navegador .active {
+    background-color: blue;
+    color: white;
+}
+
+.ego_active {
+    background-color: #ff8bff;
+}
+
+/* Añadido: Estilo para inputs con error */
+.input-error {
+    border: 2px solid red;
+}
+
+.error-validacion {
+    color: red;
+}
+/* 
+.input-error {
+    border: 2px solid red;
+} */
+
+.sugerencia {
+    color: rgb(175, 175, 175);
+}
+
+.fecha-nacimiento {
+    display: flex;
+    gap: 10px; /* Espacio entre los selects */
+}
+
+.fecha-nacimiento select {
+    width: auto;
+    flex: 1; /* Ajusta el tamaño de cada select */
+}
